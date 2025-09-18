@@ -1,0 +1,11 @@
+{
+  "input_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\raw_smartshirt_data\\014hexoskin\\ECG_III.wav",
+  "output_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\processed_smartshirt_data\\014hexoskin\\ECG_III.csv",
+  "samplerate_hz": 256,
+  "samples": 0,
+  "channels": 1,
+  "duration_s": 0.0,
+  "dtype": "float32",
+  "normalized": true,
+  "mixed_to_mono": false
+}

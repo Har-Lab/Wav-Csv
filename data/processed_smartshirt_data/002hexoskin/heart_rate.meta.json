@@ -1,0 +1,11 @@
+{
+  "input_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\raw_smartshirt_data\\002hexoskin\\heart_rate.wav",
+  "output_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\processed_smartshirt_data\\002hexoskin\\heart_rate.csv",
+  "samplerate_hz": 1,
+  "samples": 2184,
+  "channels": 1,
+  "duration_s": 2184.0,
+  "dtype": "float32",
+  "normalized": true,
+  "mixed_to_mono": false
+}

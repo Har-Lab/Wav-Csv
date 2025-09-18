@@ -1,0 +1,11 @@
+{
+  "input_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\raw_smartshirt_data\\005hexoskin\\acceleration_X.wav",
+  "output_file": "C:\\Users\\dayya\\Documents\\HumanActivityData\\data\\processed_smartshirt_data\\005hexoskin\\acceleration_X.csv",
+  "samplerate_hz": 64,
+  "samples": 96152,
+  "channels": 1,
+  "duration_s": 1502.375,
+  "dtype": "float32",
+  "normalized": true,
+  "mixed_to_mono": false
+}

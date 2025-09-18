@@ -1,0 +1,1961 @@
+{
+  "args": {
+    "input_dir": "data/raw_smartshirt_data",
+    "output_dir": "data/processed_smartshirt_data",
+    "subjects": null,
+    "normalize": true,
+    "mono": false,
+    "verbose": true,
+    "dry_run": false,
+    "resume": false
+  },
+  "processing_time_seconds": 330.33483934402466,
+  "results": [
+    {
+      "subject_id": "001",
+      "hexoskin_dir": "data/raw_smartshirt_data\\001hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\001hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\001hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\001hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "002",
+      "hexoskin_dir": "data/raw_smartshirt_data\\002hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\002hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\002hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\002hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "003",
+      "hexoskin_dir": "data/raw_smartshirt_data\\003hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\003hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\003hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\003hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "004",
+      "hexoskin_dir": "data/raw_smartshirt_data\\004hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\004hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\004hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\004hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "005",
+      "hexoskin_dir": "data/raw_smartshirt_data\\005hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\005hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\005hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\005hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "006",
+      "hexoskin_dir": "data/raw_smartshirt_data\\006hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\006hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\006hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\006hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "007",
+      "hexoskin_dir": "data/raw_smartshirt_data\\007hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\007hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\007hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\007hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "008",
+      "hexoskin_dir": "data/raw_smartshirt_data\\008hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\008hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\008hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\008hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "009",
+      "hexoskin_dir": "data/raw_smartshirt_data\\009hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\009hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\009hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\009hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "010",
+      "hexoskin_dir": "data/raw_smartshirt_data\\010hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\010hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\010hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\010hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "011",
+      "hexoskin_dir": "data/raw_smartshirt_data\\011hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\011hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\011hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\011hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "012",
+      "hexoskin_dir": "data/raw_smartshirt_data\\012hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\012hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\012hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\012hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "013",
+      "hexoskin_dir": "data/raw_smartshirt_data\\013hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\013hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\013hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\013hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    },
+    {
+      "subject_id": "014",
+      "hexoskin_dir": "data/raw_smartshirt_data\\014hexoskin",
+      "wav_files": [
+        "data/raw_smartshirt_data\\014hexoskin\\ECG_I.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\ECG_II.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\ECG_III.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\acceleration_X.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\acceleration_Y.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\acceleration_Z.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\activity.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\breathing_rate.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\breathing_rate_quality.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\cadence.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\energy_mifflin_keytel.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\heart_rate.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\heart_rate_quality.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\minute_ventilation.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\minute_ventilation_adjusted.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\respiration_abdominal.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\respiration_thoracic.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\systolic_pressure.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\systolic_pressure_adjusted.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\tidal_volume.wav",
+        "data/raw_smartshirt_data\\014hexoskin\\tidal_volume_adjusted.wav"
+      ],
+      "results": [
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\ECG_I.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\ECG_II.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\ECG_III.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\acceleration_X.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\acceleration_Y.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\acceleration_Z.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\activity.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\breathing_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\breathing_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\cadence.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\energy_mifflin_keytel.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\heart_rate.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\heart_rate_quality.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\minute_ventilation.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\minute_ventilation_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\respiration_abdominal.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\respiration_thoracic.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\systolic_pressure.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\systolic_pressure_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\tidal_volume.wav",
+          "success": true,
+          "message": "Success"
+        },
+        {
+          "wav_file": "data/raw_smartshirt_data\\014hexoskin\\tidal_volume_adjusted.wav",
+          "success": true,
+          "message": "Success"
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "success": 21,
+        "failed": 0
+      }
+    }
+  ]
+}
